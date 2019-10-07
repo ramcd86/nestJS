@@ -1,5 +1,5 @@
-<% var data=viewData %>
-<% include partials/header.ejs %>
+
+<%- include('partials/header', {data: viewData}); %>
 
 <h4>
 	<%= viewData.testViewState %>
@@ -13,4 +13,4 @@
 
 
   
-<% include partials/footer.ejs %>
+<% include('partials/footer'); %>

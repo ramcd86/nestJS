@@ -1,5 +1,5 @@
-<% var data=viewData %>
-<% include partials/header %>
+
+<%- include('partials/header', {data: viewData}); %>
 
 
     <img src="https://nestjs.com/img/logo-small.svg" width="120">
@@ -13,4 +13,4 @@
   
 
 
-<% include partials/footer %>
+<% include('partials/footer'); %>
