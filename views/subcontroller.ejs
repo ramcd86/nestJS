@@ -1,0 +1,16 @@
+
+<% var data=viewData %>
+<% include partials/header.ejs %>
+
+<img src="https://nestjs.com/img/logo-small.svg" width="120">
+  <h4>
+  <%= viewData.postedMessage.content %> 
+  <%= viewData.postedMessage.submittedBy %> 
+  <%= viewData.postedMessage.error %> 
+  </h4>
+
+
+
+
+  
+<% include partials/footer.ejs %>

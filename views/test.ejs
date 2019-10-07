@@ -1,0 +1,16 @@
+<% var data=viewData %>
+<% include partials/header.ejs %>
+
+<h4>
+	<%= viewData.testViewState %>
+	<form method="post">
+		<input type="text" name="content" value="" placeholder="content">
+		<input type="text" name="submittedBy" value="" placeholder="submittedBy">
+		<input type="submit" value="submit">
+	</form>
+</h4>
+
+
+
+  
+<% include partials/footer.ejs %>
